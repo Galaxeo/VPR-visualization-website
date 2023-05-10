@@ -1,0 +1,33 @@
+
+* {
+    /* border-top: 10px solid #1098ad ; */
+    /* the universal selector */
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+} 
+body h1 {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  justify-content: center;
+}
+.flex-column{
+  width: 30vw;
+}
+.flex-column img {
+  width: 90%;
+}
+.container {
+  display: block;
+  gap: 10px;
+}
+.container img {
+  width: 34.5%;
+  z-index: 0;
+}
